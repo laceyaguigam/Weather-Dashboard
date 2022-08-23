@@ -1,0 +1,38 @@
+* {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+ 
+}
+
+container-fluid {
+   
+}
+
+.weather {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-style: solid;
+    background-color: blue;
+    
+}
+
+.btn {
+    
+}
+
+.container {
+    border-style: solid;
+}
+
+.forecast {
+    border-style: solid;
+    text-align: center;
+}
+
+.border-visualize{
+    border: ;
+}
