@@ -30,29 +30,30 @@
 
          <input class="form-control" id="search-box"/> 
           <button class="btn btn-info w-100" id="btnSearch"> search </button>
+          <br>
         </div>
-<button class="btn btn-danger mx-auto w-100 my-2"> Austin</button> <br>
-          <button class="btn btn-danger mx-auto w-100 my-2"> Chicago</button> <br>
-          <button class="btn btn-danger mx-auto w-100 my-2"> New York</button> <br>
-          <button class="btn btn-danger mx-auto w-100 my-2"> Orlando</button> <br>
-          <button class="btn btn-danger mx-auto w-100 my-2"> San Francisco</button> <br>
-          <button class="btn btn-danger mx-auto w-100 my-2"> Seattle</button> <br>
-          <button class="btn btn-danger mx-auto w-100 my-2"> Denver</button> <br>
-          <button class="btn btn-danger mx-auto w-100 my-2"> Atlanta</button> <br>
+          <button class="btn  btn-secondary mx-auto w-100 my-2"> Austin</button> <br>
+          <button class="btn btn-secondary mx-auto w-100 my-2"> Chicago</button> <br>
+          <button class="btn btn-secondary mx-auto w-100 my-2"> New York</button> <br>
+          <button class="btn btn-secondary mx-auto w-100 my-2"> Orlando</button> <br>
+          <button class="btn btn-secondary mx-auto w-100 my-2"> San Francisco</button> <br>
+          <button class="btn btn-secondary mx-auto w-100 my-2"> Seattle</button> <br>
+          <button class="btn btn-secondary mx-auto w-100 my-2"> Denver</button> <br>
+          <button class="btn btn-secondary mx-auto w-100 my-2"> Atlanta</button> <br>
 
       </aside>
       <main class="col-9 border">
         <section class="row border">
           <div id="weatherMain">
 
-            <h1>current weather</h1>
-            <p>Today's weather report brought to you by figma</p>
-            <p>temp: 88 Fahrenheit</p>
-            <p>humidity: 99%</p>
-            <p>wind: 1000 mph</p>
+            <h1 id="weather">Current Weather</h1>
+            <p id="temp">temp: </p>
+            <p id="humidity">humidity: </p>
+            <p id="wind">wind: </p>
           </div>
         </section>
-        <h1>5-Day Forecast:</h1>
+
+        <h1 id="forecast">5-Day Forecast:</h1>
         <section class="row border">
           
 
@@ -62,10 +63,10 @@
             <div class="col-sm-2">
               <div class="card">
                 <div class="card-body">
-                  <h3 class="card-title">8/22/22</h3>
-                  <p class="card-text">Temp:</p>
-                  <p class="card-text">Wind:</p>
-                  <p class="card-text">Humidity:</p>
+                  <h3 class="card-title" id="day1">8/22/22</h3>
+                  <p class="card-text" id="day1-temp">Temp:</p>
+                  <p class="card-text" id="day1-wind">Wind:</p>
+                  <p class="card-text" id="day1-humidity">Humidity:</p>
                   
                 </div>
               </div>
@@ -74,9 +75,9 @@
               <div class="card">
                 <div class="card-body">
                   <h3 class="card-title">8/23/22</h3>
-                  <p class="card-text">Temp:</p>
-                  <p class="card-text">Wind:</p>
-                  <p class="card-text">Humidity:</p>
+                  <p class="card-text" id="day2-temp">Temp:</p>
+                  <p class="card-text" id="day2-wind">Wind:</p>
+                  <p class="card-text" id="day2-humidity">Humidity:</p>
                   
                  
                 </div>
@@ -89,9 +90,9 @@
               <div class="card">
                 <div class="card-body">
                   <h3 class="card-title">8/24/22</h3>
-                  <p class="card-text">Temp:</p>
-                  <p class="card-text">Wind:</p>
-                  <p class="card-text">Humidity:</p>
+                  <p class="card-text" id="day3-temp">Temp:</p>
+                  <p class="card-text" id="day3-wind">Wind:</p>
+                  <p class="card-text" id="day3-humidity"> Humidity:</p>
                   
                 </div>
               </div>
@@ -100,9 +101,9 @@
               <div class="card">
                 <div class="card-body">
                   <h3 class="card-title">8/25/22</h3>
-                  <p class="card-text"></p> <p class="card-text">Temp:</p>
-                  <p class="card-text">Wind:</p>
-                  <p class="card-text">Humidity:</p>
+                  <p class="card-text" id="day4-temp"> Temp:</p>
+                  <p class="card-text" id="day4-wind">Wind:</p>
+                  <p class="card-text" id="day4-humidity"> Humidity:</p>
                 </div>
               </div>
             </div>
@@ -113,15 +114,13 @@
             <div class="card">
               <div class="card-body">
                 <h3 class="card-title">8/26/22</h3>
-                <p class="card-text">Temp:</p>
-                <p class="card-text">Wind:</p>
-                <p class="card-text">Humidity:</p>
+                <p class="card-text" id="day5-temp">Temp:</p>
+                <p class="card-text" id="day5-wind">Wind:</p>
+                <p class="card-text" id="day5-humidity"> Humidity:</p>
                 
               </div>
             </div>
           </div>
-
-
 </div>
 
        
@@ -145,7 +144,7 @@
 
 
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" ></script>
     <script src="./assets/script.js"></script>
   </body>
 </html>
