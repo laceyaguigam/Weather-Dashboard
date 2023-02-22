@@ -1,7 +1,7 @@
 # Weather Dashboard
 
 ## Purpose 
-
+Weather is a major factor in traveling and making plans to go out and do things with family and friends. When making plans it is important to have the most accurate information as the day progresses. The following is a web application that allows users to search cities to get the most accurate weather to plan trips and vacations accordingly. 
 
 
 ## Installation 
