@@ -3,11 +3,13 @@
 ## Purpose 
 
 
+
 ## Installation 
 
 Clone the source code for the Weather Dashboard from the dashboard repository and save to desired location. The source code can then be used in your desired coding software.
 ## Usage
 
+Open the index.html file located in the weather basboard folder in your desired web browser. Once opened you can search for a city, then the current weather and a 5 day forecast will appear.
 
 ## Built With 
 
